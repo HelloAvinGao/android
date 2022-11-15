@@ -1,0 +1,9 @@
+next task：
+login页面
+循环显示card数据 => listview
+网络监控
+页面跳转平滑显示
+添加扫码枪SDK方式以及调用方法
+上方标题修改 =>Theme => NoActionBar,DarkActionBar
+android的ajax
+文件读写权限添加
