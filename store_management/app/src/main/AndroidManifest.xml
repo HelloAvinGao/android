@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hzh.store_management">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.ContentForGoodsCheck.GoodsCheckRequestActivity"></activity>
+        <activity android:name=".ui.ContentForGoodsCheck.GoodsCheckListActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutWill.GoodsOutDealWillActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutAlready.GoodsOutDetailsInfoActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutAlready.GoodsOutAlreadyListItemActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutWill.GoodsOutCheckedWillActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutWill.GoodsOutBeCheckWillActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutWill.GoodsOutAllWillActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutAlready.GoodsOutAlreadyActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutWill.GoodsOutWillActivity" />
+        <activity android:name=".ui.ContentForGoodsOut.GoodsOutListActivity" />
+        <activity android:name=".ui.ContentForGoodsIn.GoodsInListItemContentActivity" />
+        <activity android:name=".ui.ContentForGoodsIn.GoodsInListActivity" />
+        <activity android:name=".ui.secondmenu.SecondMenuGoodsListActivity" />
+        <activity android:name=".ui.secondmenu.SecondMenuGoodsMovedActivity" />
+        <activity android:name=".ui.secondmenu.SecondMenuGoodsCheckActivity" />
+        <activity android:name=".ui.secondmenu.SecondMenuGoodsInActivity" />
+        <activity android:name=".ui.secondmenu.SecondMenuGoodsOutActivity" />
+        <activity android:name=".ui.homemenu.HomeMenuActivity" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

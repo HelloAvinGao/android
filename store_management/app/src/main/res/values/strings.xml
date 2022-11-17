@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">store_demo</string>
+    <!--login string-->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!--home menu string-->
+    <string name="home_menu_goods_out">货品出库</string>
+    <string name="home_menu_goods_in">货品入库</string>
+    <string name="home_menu_goods_check">货品盘点</string>
+    <string name="home_menu_goods_moved">货品移库</string>
+    <string name="home_menu_goods_list">库存查询</string>
+    <!--second menu -> goodsOut -> string-->
+    <string name="second_menu_goods_out_for_sale">销售出库</string>
+    <string name="second_menu_goods_out_for_return">退货出库</string>
+    <string name="second_menu_goods_out_for_balanced">货品平账出库</string>
+    <!--second menu -> goodsIn -> string-->
+    <string name="second_menu_goods_in_for_bug">采购入库</string>
+    <string name="second_menu_goods_in_for_normalGoods_return">正常品退货入库</string>
+    <string name="second_menu_goods_in_for_badGoods_return">不良品退货入库</string>
+    <string name="second_menu_goods_in_for_balanced">货品平账入库</string>
+    <!--second menu -> goodsCheck -> string-->
+    <string name="second_menu_goods_check_for_Inventory">开始盘点</string>
+    <string name="second_menu_goods_check_for_billingRequest">平账申请</string>
+    <!--second menu -> goodsMoved -> string-->
+    <string name="second_menu_goods_moved_out_store_num_scan">出库位扫描</string>
+    <string name="second_menu_goods_moved_in_store_num_scan">入库位扫描</string>
+
+
+    <string name="menu_goods_out_list">待出库单</string>
+    <string name="menu_goods_in_list">待入库单</string>
+    <string name="tab_menu_goods_out_will_records">待出库</string>
+    <string name="tab_menu_goods_out_already_records">已出库</string>
+    <string name="tab_menu_all_will_goods_out">全部</string>
+    <string name="tab_menu_becheck_will_goods_out">未审核</string>
+    <string name="tab_menu_checked_will_goods_out">已审核</string>
+    <string name="title_deal_will_goods_out">办理出库</string>
+    <string name="store_list">仓库列表</string>
+</resources>
